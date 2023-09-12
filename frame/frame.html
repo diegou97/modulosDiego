@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/fa3dd98c16.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/frame.css">
+    <script src="./js/functions.js"></script>
+    <title>Matissa</title>
+</head>
+<body onload="clickHome()">
+    <header class="head">
+        <div class="merienda">
+            Matissa
+        </div>
+        <div class="quicksand">
+            Dylan Bolivar &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="../login/index.html">
+                <i class="fa-solid fa-door-open fa-lg" style="color: #ffffff;"></i>
+                <i class="fa-solid fa-arrow-right fa-2xs" style="color: #ffffff;"></i>
+            </a>
+        </div>
+    </header>
+    <div class="container-menu">
+        <div class="menu">
+            <a href="../Modulos/home/index.html" id="home" onclick="estiloHome()" target="myFrame"><h1>MENU</h1></a>
+            <ul>
+                <a href="../Modulos/roles/index.html" onclick="estiloRol()" target="myFrame"><li id="roles" ><i class="fa-solid fa-gear fa-xl"></i> &nbsp; Roles</li></a>
+                <a href="../Modulos/usuarios/index.html" onclick="estiloUsuario()" target="myFrame"><li id="usuarios" ><i class="fa-solid fa-circle-user fa-xl"></i> &nbsp; Usuarios</li></a>
+                <a href="../Modulos/citas/index.html" onclick="estiloCita()" target="myFrame"><li id="citas"><i class="fa-solid fa-calendar-day fa-xl"></i> &nbsp; Citas</li></a>
+                <a href="../Modulos/servicios/index.html" onclick="estiloServicio()" target="myFrame"><li id="servicios"><i class="fa-solid fa-scissors fa-xl"></i> &nbsp; Servicios</li></a>
+                <a href="../Modulos/compras/index.html" onclick="estiloCompra()" target="myFrame"><li id="compras" ><i class="fa-solid fa-cart-shopping fa-xl"></i> &nbsp; Compras</li></a>
+                <a href="../Modulos/existencias/index.html" onclick="estiloExistencia()" target="myFrame"><li id="existencias"><i class="fa-solid fa-rectangle-list fa-xl"></i> &nbsp; Existencia</li></a>
+                <a href="../Modulos/ventas/index.html" onclick="estiloVenta()" target="myFrame"><li id="ventas"><i class="fa-solid fa-sack-dollar fa-xl"></i> &nbsp; Ventas</li></a>
+                <a href="../Modulos/pedidos/index.html" onclick="estiloPedido()" target="myFrame"><li id="pedidos" ><i class="fa-solid fa-bag-shopping fa-xl"></i> &nbsp; Pedidos</li></a>
+                <a href="../Modulos/clientes/index.html" onclick="estiloCliente()" target="myFrame"><li id="clientes"><i class="fa-solid fa-people-group fa-xl"></i> &nbsp; Clientes</li></a>
+                <a href="../Modulos/empleados/index.html" onclick="estiloEmpleado()" target="myFrame"><li id="empleados"><i class="fa-solid fa-user-gear fa-xl"></i> &nbsp; Empleados</li></a>
+                <a href="../Modulos/proveedores/index.html" onclick="estiloProveedor()" target="myFrame"><li id="proveedores"><i class="fa-solid fa-truck fa-xl"></i> &nbsp; Proveedores</li></a>
+                
+
+            </ul>
+            <img src="./images/logo.png" width="40%" alt="">
+        </div>
+        <div class="frame">
+            <iframe name="myFrame" style="height:100%; width:100%;"></iframe>
+        </div>
+    </div>
+</body>
+</html>

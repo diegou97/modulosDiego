@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.antiCeluco {
+    display: none;
+}
+.container-menu {
+    display: flex;
+    margin: 0;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    background-color: #444444;
+}
+.merienda {
+    font-family: "Merienda";
+    color: white;
+    font-size: 40px;
+    padding: 0% 30% 0% 30%;
+    font-weight: bold;
+}
+.quicksand {
+    font-family: "Quicksand";
+    padding: 20px;
+    text-align: right;
+    background-color: #232323;
+    color: white;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.frame {
+    height: 100vh;
+    width: 100%;
+}
+.menu {
+    background-color: #e2d4ff;
+    height: 100vh;
+    width: 40vh;
+}
+.menu img {
+    padding-left: 25%;
+}
+.menu i {
+    width: 20%;
+}
+.menu h1 {
+    font-family: "Merienda";
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 1px 2px 6px black;
+    padding: 5px;
+}
+@media screen and (max-width: 500px) {
+    .menu {
+        display: none;
+    }
+    .quicksand {
+        display: none;
+    }
+    .antiCeluco {
+        display: block;
+    }
+    
+}
+ul li {
+    background-color: #a7e3e1;
+    list-style: none;
+    margin-right: 5px;
+    padding: 15px;
+    margin-top: 4px;
+    box-shadow: 3px 7px 10px black;
+    border-radius: 6px;
+}
+ul li:hover {
+    background-color: #3cc3bd;
+    transition: 0.3s;
+    color: white;
+}
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    font-size: larger;
+    font-family: "Quicksand";
+}
+
+.menu input:checked{
+    background-color: red;
+}
